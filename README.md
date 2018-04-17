@@ -4,13 +4,13 @@ A simple 3D printer manager through serial port running on an Arduino Mega
 Description: Allows a selection of a gcode program through Digital I/O combination (xProgSelect), and starts it on the activation of the xStart input.
 Also passes through instructions and answers from and to the USB port:
 
-Hardware:
+__*Hardware:*__
  - Arduino Mega
  
  Tested with:
    - Anet A8 board with Marlin firmware.
 
-Implemented Functions:
+__Implemented Functions:__
   StartProgram(int iProgNum)
     Selects a program saved on the root of the 3D printer's SD Card named "prog"(iProgNum)".gco" and runs it.
     After running a program xReady will be inactive until printer reaches end of the specified file.
@@ -18,7 +18,10 @@ Implemented Functions:
  
  
 
- Pinout:
+__Connections:__
+
+![Connection diagram](ArduinoMegaAnetA8Serial.JPG)
+Format: ![Alt Text](url)
  
   Digital interface:
   
