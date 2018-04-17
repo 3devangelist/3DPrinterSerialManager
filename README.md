@@ -21,7 +21,7 @@ __Implemented Functions:__
 __Connections:__
 
 ![Connection diagram](ArduinoMegaAnetA8Serial.JPG)
-Format: ![Alt Text](url)
+Format: ![Connection diagram](https://github.com/Fernandoantvf/3DPrinterSerialManager/blob/master/ArduinoMegaAnetA8Serial.JPG)
  
   Digital interface:
   
